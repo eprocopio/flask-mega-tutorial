@@ -1,2 +1,8 @@
 #Ignore the database
 *.db
+
+#Ignore script to set environment variables
+vars.sh
+
+#Ignore log files
+*.log
