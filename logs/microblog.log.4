@@ -1,0 +1,87 @@
+2019-03-12 15:22:59,996 INFO: Microblog startup [in /Users/eprocopio/github/mega-flask-tutorial/app/__init__.py:43
+2019-03-12 15:26:57,912 INFO: Microblog startup [in /Users/eprocopio/github/mega-flask-tutorial/app/__init__.py:43
+2019-03-12 15:33:30,474 INFO: Microblog startup [in /Users/eprocopio/github/mega-flask-tutorial/app/__init__.py:43
+2019-03-12 15:33:50,741 INFO: Microblog startup [in /Users/eprocopio/github/mega-flask-tutorial/app/__init__.py:43
+2019-03-12 15:34:46,096 INFO: Microblog startup [in /Users/eprocopio/github/mega-flask-tutorial/app/__init__.py:43
+2019-03-12 15:35:18,211 INFO: Microblog startup [in /Users/eprocopio/github/mega-flask-tutorial/app/__init__.py:43
+2019-03-12 15:35:28,113 INFO: Microblog startup [in /Users/eprocopio/github/mega-flask-tutorial/app/__init__.py:43
+2019-03-12 15:38:11,309 INFO: Microblog startup [in /Users/eprocopio/github/mega-flask-tutorial/app/__init__.py:43
+2019-03-12 15:38:47,989 INFO: Microblog startup [in /Users/eprocopio/github/mega-flask-tutorial/app/__init__.py:43
+2019-03-12 15:39:02,582 INFO: Microblog startup [in /Users/eprocopio/github/mega-flask-tutorial/app/__init__.py:43
+2019-03-12 16:13:34,315 INFO: Microblog startup [in /Users/eprocopio/github/mega-flask-tutorial/app/__init__.py:43
+2019-03-12 16:14:25,339 INFO: Microblog startup [in /Users/eprocopio/github/mega-flask-tutorial/app/__init__.py:43
+2019-03-12 16:14:37,122 INFO: Microblog startup [in /Users/eprocopio/github/mega-flask-tutorial/app/__init__.py:43
+2019-03-12 16:15:00,961 INFO: Microblog startup [in /Users/eprocopio/github/mega-flask-tutorial/app/__init__.py:43
+2019-03-12 16:15:37,917 INFO: Microblog startup [in /Users/eprocopio/github/mega-flask-tutorial/app/__init__.py:43
+2019-03-12 16:15:58,261 INFO: Microblog startup [in /Users/eprocopio/github/mega-flask-tutorial/app/__init__.py:43
+2019-03-12 16:23:31,300 INFO: Microblog startup [in /Users/eprocopio/github/mega-flask-tutorial/app/__init__.py:43
+2019-03-12 16:24:06,871 INFO: Microblog startup [in /Users/eprocopio/github/mega-flask-tutorial/app/__init__.py:43
+2019-03-12 16:24:55,080 INFO: Microblog startup [in /Users/eprocopio/github/mega-flask-tutorial/app/__init__.py:43
+2019-03-12 16:25:13,697 INFO: Microblog startup [in /Users/eprocopio/github/mega-flask-tutorial/app/__init__.py:43
+2019-03-12 16:27:44,398 INFO: Microblog startup [in /Users/eprocopio/github/mega-flask-tutorial/app/__init__.py:43
+2019-03-12 16:28:03,892 INFO: Microblog startup [in /Users/eprocopio/github/mega-flask-tutorial/app/__init__.py:43
+2019-03-12 16:29:14,038 INFO: Microblog startup [in /Users/eprocopio/github/mega-flask-tutorial/app/__init__.py:43
+2019-03-12 16:29:23,058 INFO: Microblog startup [in /Users/eprocopio/github/mega-flask-tutorial/app/__init__.py:43
+2019-03-12 16:43:43,851 INFO: Microblog startup [in /Users/eprocopio/github/mega-flask-tutorial/app/__init__.py:43
+2019-03-12 16:44:46,962 ERROR: Exception on /unfollow/john [GET] [in /Users/eprocopio/.local/share/virtualenvs/mega-flask-tutorial-No6JTWh7/lib/python3.7/site-packages/flask/app.py:1761
+Traceback (most recent call last):
+  File "/Users/eprocopio/.local/share/virtualenvs/mega-flask-tutorial-No6JTWh7/lib/python3.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/eprocopio/.local/share/virtualenvs/mega-flask-tutorial-No6JTWh7/lib/python3.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/eprocopio/.local/share/virtualenvs/mega-flask-tutorial-No6JTWh7/lib/python3.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/eprocopio/.local/share/virtualenvs/mega-flask-tutorial-No6JTWh7/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/eprocopio/.local/share/virtualenvs/mega-flask-tutorial-No6JTWh7/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/eprocopio/.local/share/virtualenvs/mega-flask-tutorial-No6JTWh7/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/eprocopio/.local/share/virtualenvs/mega-flask-tutorial-No6JTWh7/lib/python3.7/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/eprocopio/github/mega-flask-tutorial/app/routes.py", line 120, in unfollow
+    db.dession.commit()
+AttributeError: 'SQLAlchemy' object has no attribute 'dession'
+2019-03-12 16:45:37,138 INFO: Microblog startup [in /Users/eprocopio/github/mega-flask-tutorial/app/__init__.py:43
+2019-03-12 18:39:23,263 INFO: Microblog startup [in /Users/eprocopio/github/mega-flask-tutorial/app/__init__.py:43
+2019-03-12 18:39:37,892 ERROR: Exception on /index [GET] [in /Users/eprocopio/.local/share/virtualenvs/mega-flask-tutorial-No6JTWh7/lib/python3.7/site-packages/flask/app.py:1761
+Traceback (most recent call last):
+  File "/Users/eprocopio/.local/share/virtualenvs/mega-flask-tutorial-No6JTWh7/lib/python3.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/eprocopio/.local/share/virtualenvs/mega-flask-tutorial-No6JTWh7/lib/python3.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/eprocopio/.local/share/virtualenvs/mega-flask-tutorial-No6JTWh7/lib/python3.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/eprocopio/.local/share/virtualenvs/mega-flask-tutorial-No6JTWh7/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/eprocopio/.local/share/virtualenvs/mega-flask-tutorial-No6JTWh7/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/eprocopio/.local/share/virtualenvs/mega-flask-tutorial-No6JTWh7/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/eprocopio/.local/share/virtualenvs/mega-flask-tutorial-No6JTWh7/lib/python3.7/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/eprocopio/github/mega-flask-tutorial/app/routes.py", line 27, in index
+    return render_template('index.html', title='Home', form=form, posts=posts  )
+  File "/Users/eprocopio/.local/share/virtualenvs/mega-flask-tutorial-No6JTWh7/lib/python3.7/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/Users/eprocopio/.local/share/virtualenvs/mega-flask-tutorial-No6JTWh7/lib/python3.7/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/Users/eprocopio/.local/share/virtualenvs/mega-flask-tutorial-No6JTWh7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Users/eprocopio/.local/share/virtualenvs/mega-flask-tutorial-No6JTWh7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/eprocopio/.local/share/virtualenvs/mega-flask-tutorial-No6JTWh7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/eprocopio/.local/share/virtualenvs/mega-flask-tutorial-No6JTWh7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/eprocopio/github/mega-flask-tutorial/app/templates/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/Users/eprocopio/github/mega-flask-tutorial/app/templates/base.html", line 30, in top-level template code
+    {% block content %}{% endblock %}
+  File "/Users/eprocopio/github/mega-flask-tutorial/app/templates/index.html", line 19, in block "content"
+    {% include '_post.html' %}
+  File "/Users/eprocopio/.local/share/virtualenvs/mega-flask-tutorial-No6JTWh7/lib/python3.7/site-packages/flask/templating.py", line 58, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/eprocopio/.local/share/virtualenvs/mega-flask-tutorial-No6JTWh7/lib/python3.7/site-packages/flask/templating.py", line 86, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: _post.html

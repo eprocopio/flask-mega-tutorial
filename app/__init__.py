@@ -39,7 +39,9 @@ if not app.debug:
     file_handler.setLevel(logging.INFO)
     app.logger.addHandler(file_handler)
 
-    app.logger.setLevel(logging.INFO)
+    # SETTING LOGGING LEVELS HERE
+    # ALLOWABLE VALUES ARE: DEBUG, INFO, WARNING, ERROR, CRITICAL
+    app.logger.setLevel(logging.DEBUG) # TODO: SET LOG LEVEL TO INFO
     app.logger.info('Microblog startup')
 
         
